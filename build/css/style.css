@@ -356,7 +356,7 @@ template {
       margin-right: 15px; }
     .header__logo p {
       font-size: 29px;
-      font-family: "Arial", sans-serif;
+      font-family: "Tahoma";
       color: #fff;
       text-transform: uppercase;
       line-height: 1.2;
@@ -437,7 +437,7 @@ template {
   margin-bottom: 80px; }
   .promo__text {
     font-size: 48px;
-    font-family: "Arial", sans-serif;
+    font-family: "Akrobat";
     color: #004734;
     text-transform: uppercase;
     line-height: 1.3;
@@ -581,7 +581,7 @@ template {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
   .cards .card__old {
-    font-family: "Arial", sans-serif;
+    font-family: "Arial";
     color: #575757;
     margin: 0;
     font-size: 33px;
@@ -593,7 +593,7 @@ template {
       .cards .card__old {
         text-align: center; } }
   .cards .card__new {
-    font-family: "Arial", sans-serif;
+    font-family: "Arial";
     font-size: 42px;
     color: #d8481c;
     line-height: auto;
