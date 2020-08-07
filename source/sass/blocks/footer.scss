@@ -1,0 +1,25 @@
+.footer{
+    background-color: #a4a4a5;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    &__top{
+        margin-bottom: 20px;
+    }
+     &__middle{
+        margin-bottom: 20px;
+    }
+
+    span{
+       font-family: "Arial", sans-serif;
+       font-size: 16px;
+       color: #fff;
+    }
+
+    a{
+        font-family: "Arial", sans-serif;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+    }
+}

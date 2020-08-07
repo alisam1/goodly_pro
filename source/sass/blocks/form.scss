@@ -1,0 +1,106 @@
+.form{
+    padding-bottom: 60px;
+
+    form{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url("../img/form_bg.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        &::before{
+            content: "";
+            background-image: url("../img/form_left.svg");
+            position: absolute;
+            width: 78px;
+            height: 51px;
+            top: 15px;
+            left: -110px;
+            @media screen and (min-width: 768px) and (max-width: 1279px) {
+               display: none;
+            }
+            @media screen and (min-width: 320px) and (max-width: 767px) {
+              display: none;
+            }
+        }
+        &::after{
+            content: "";
+            background-image: url("../img/form_right.svg");
+            position: absolute;
+            width: 78px;
+            height: 51px;
+            top: 15px;
+            right: -110px;
+             @media screen and (min-width: 768px) and (max-width: 1279px) {
+               display: none;
+            }
+            @media screen and (min-width: 320px) and (max-width: 767px) {
+               display: none;
+            }
+        }
+         @media screen and (min-width: 768px) and (max-width: 1279px) {
+               background-image: none;
+               background-color: #80c9b0;
+               flex-direction: column;
+               height: auto;
+               background-size: cover;
+               background-repeat: no-repeat;
+               position: relative;
+               padding-top: 20px;
+              padding-bottom: 20px;
+            }
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+               background-image: none;
+               background-color: #80c9b0;
+               flex-direction: column;
+               height: auto;
+               background-size: cover;
+               background-repeat: no-repeat;
+               position: relative;
+               padding-top: 20px;
+              padding-bottom: 20px;
+            }
+    }
+
+    form input{
+        width: 280px;
+        height: 40px;
+        border: 1px solid rgb(86, 144, 124);
+        font-family: 'Arial', sans-serif;
+        font-size: 21px;
+        text-align: center;
+        color: rgba(128, 130, 134, 0.302);
+        @media screen and (min-width: 768px) and (max-width: 1279px) {
+            width: 50%;
+             margin-bottom: 20px;
+         }
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+            width: 90%;
+             margin-bottom: 20px;
+         }
+    }
+
+     form input[type="submit"]{
+        width: 320px;
+        height: 40px;
+        font-size: 18px;
+        border: 1px solid transparent;
+        background-color: #de0d08;
+        color: #fff;
+        cursor: pointer;
+        @media screen and (min-width: 768px) and (max-width: 1279px) {
+            width: 60%;
+            height: 40px;
+            font-size: 16px;
+        }
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+            width: 95%;
+            height: 40px;
+            font-size: 16px;
+        }
+    }
+}
